@@ -27,6 +27,7 @@ CSS ELEMENTI GENERICI
 .alignItemCenter {align-items: center;}
 .alignItemTop {align-items: flex-start;}
 .space-between {justify-content: space-between;}
+.justify-center {justify-content: center;}
 
 
 .bg-arancio {background-color: orange;}
@@ -55,11 +56,21 @@ CSS ELEMENTI GENERICI
 /******************
 CSS ELEMENTI PAGINA
 *******************/
-header {
-    background-color: lightblue;
+body{   
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar{                        /*navbar usato per i link in alto alla pagina */
+header {
+    background-color: #3161e0;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar{       
+    font-weight: 600;              /*navbar usato per i link in alto alla pagina */
     display: flex;
     height: 80px;
     width: 1200px;
@@ -69,18 +80,35 @@ header {
     font-size: 20px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    padding: 70px;
+    font-size: 20px;
+}
 footer{
     border-top: 2px solid #d3d3d3;
 }
 
 .bluebox{
-    background-color: darkblue;
+    background-image: url("../img/jumbo.png");
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
     padding: 3em;  
 }
 
 .pinkbox{
     margin: 0 auto;
-    max-width: 950px;
+    max-width: 890px;
     min-height: 420px;
 }
 
@@ -103,10 +131,28 @@ footer p{
     height: 40px;
 }
 
-
-button{
-    border: none;
-    width: 95px;
-    height: 40px;
+.download{
+    margin-top: 24px;
+    margin-right: 24px;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 28px;
+    border: none
+}
+.OpenOnYourBrowser{
+    color: white;
+    margin-top: 24px;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 28px;
+    border: none
 }
 
+#Accesso{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 7px 16px;
+    border-radius: 40px;
+    border: none
+}
+#
