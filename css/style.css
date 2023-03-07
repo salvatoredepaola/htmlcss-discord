@@ -257,7 +257,18 @@ i{
     display: block;
     margin-top: 20px;
     padding: 0;
+}
 
+#borderbottom{
+    border-bottom: 2px solid #434f73;
 
+}
+footer div{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+button{
+    cursor: pointer;
 }
     
