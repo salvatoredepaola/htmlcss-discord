@@ -76,6 +76,13 @@ CSS ELEMENTI GENERICI
     width: calc((100% / 6) * 1);
 }
 
+svg{display: block;}
+
+.grey-wave path{fill: lightgray;}
+.white-wave path{fill: white}
+.white-wave{background-color: lightgray;}
+
+
 /******************
 CSS ELEMENTI PAGINA
 *******************/
@@ -100,16 +107,21 @@ header {
     font-size: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
+
 
 h1{
     font-size: 50px;
 }
+
+h2{
+    padding-top: 40px;
+    font-size: 48px;
+}
+.smallh2{
+    font-size: 30px;
+}
+
+
 header p{
     padding: 70px;
     font-size: 20px;
@@ -205,30 +217,18 @@ footer p{
     background-position: center;
     background-size: contain;
 }
-h2{
-    padding-top: 40px;
-    font-size: 48px;
-}
-.smallh2{
-    font-size: 30px;
-}
-
-
-
 main p{
     text-align: left;
     padding-top: 40px;
     font-size: 20px;
 }
 
-
-
-.grey-wave path{fill: lightgray;}
-.white-wave path{fill: white}
-.white-wave{background-color: lightgray;}
-
-svg{display: block;}
-
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 .stars{
     color: black;
     background-image: url(../img/stars.svg);
@@ -239,7 +239,6 @@ svg{display: block;}
     max-width: 600px;
     height: 50px;
 }
-
 #ita{
     width: 30px;
     height: 20px;
