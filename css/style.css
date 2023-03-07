@@ -8,7 +8,7 @@ CSS ELEMENTI GENERICI
     margin: 0;
 }
 .boxed{                                 /*classe per allineare bene */
-    max-width: 1250px;                   /*meglio dare in pixel per fissare bene la pagina o usare % per farla adattare al dispositivo */
+    max-width: 1300px;                   /*meglio dare in pixel per fissare bene la pagina o usare % per farla adattare al dispositivo */
     margin: 0 auto;
 }
 
@@ -41,6 +41,9 @@ CSS ELEMENTI GENERICI
 .bg-violet {background-color: violet;}
 .bg-black {background-color: #222;}
 
+.text-black{color: black;}
+.text-white{color: white;}
+
 .col10 {width: 10%;}
 .col20 {width: 20%;}
 .col25 {width: 25%;}
@@ -50,6 +53,7 @@ CSS ELEMENTI GENERICI
 .col60 {width: 60%;}
 .col70 {width: 70%;}
 .col80 {width: 80%;}
+.width400 {width: 400px;}
 
 .MiniColumn {width: calc((100% / 6) * 1);}
 
@@ -65,9 +69,6 @@ header {
     background-color: #3161e0;
 }
 
-img{
-    width: 100%;
-}
 
 .navbar{       
     font-weight: 600;              /*navbar usato per i link in alto alla pagina */
@@ -90,7 +91,7 @@ a{
 h1{
     font-size: 50px;
 }
-p{
+header p{
     padding: 70px;
     font-size: 20px;
 }
@@ -113,7 +114,6 @@ footer{
 }
 
 .green{
-    background-color: #228b22;
     min-height: 920px; 
 }
 
@@ -140,7 +140,6 @@ footer p{
     border: none
 }
 .OpenOnYourBrowser{
-    color: white;
     margin-top: 24px;
     font-size: 20px;
     padding: 16px 32px;
@@ -155,4 +154,39 @@ footer p{
     border-radius: 40px;
     border: none
 }
-#
+#item1{
+    background-image: url(../img/item1.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+#item2{
+    background-image: url(../img/item2.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+#item3{
+    background-image: url(../img/item3.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+#item4{
+    background-image: url(../img/item4-big.svg);
+    background-position: center;
+    background-size: contain;
+}
+h2{
+    padding-top: 40px;
+    font-size: 48px;
+}
+
+main p{
+    text-align: left;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.padding-top{padding-top: 180px;}
+.padding-left{padding-left: 200px;}
